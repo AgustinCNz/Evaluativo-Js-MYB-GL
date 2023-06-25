@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtered Movies Zone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Filtered Movies Zone</h1>
+  <!-- <div class="background-animation">
+    <video class="video-layer" autoplay loop muted>
+      <source src="./video/fondo1.mp4" type="video/mp4">
+    </video> -->
+  </div>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Adventure">Adventure</a></li>
+        <li><a href="#Animation">Animation</a></li>
+        <li><a href="#Drama">Drama</a></li>
+        <li><a href="#Horror">Horror</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="Horror" class="card-section">
+    <div class="card">
+      <img src="./img/thetexas.jpg" alt="TheTexasMovie">
+      <h2>The Texas Chain Saw Massacre</h2>
+      <h3>Genre Horror</h3>
+    </div>
+    <div class="card">
+      <img src="./img/theshining.jpg" alt="TheShiningMovie">
+      <h2>The Shining</h2>
+      <h3>Genre Horror</h3>
+    </div>
+  </section>
+
+  <section id="Drama" class="card-section">
+    <div class="card">
+      <img src="./img/whidplash.jpg" alt="WhiplashMovie">
+      <h2>Whiplash</h2>
+      <h3>Genre Drama</h3>
+    </div>
+    <div class="card">
+      <img src="./img/lifeisbeautiful.jpg" alt="LifeIsBeautifulMovie">
+      <h2>Life Is Beautiful</h2>
+      <h3>Genre Drama</h3>
+    </div>
+    <div class="card">
+      <img src="./img/thelegend.jpg" alt="TheDarkKnightRisesMovie">
+      <h2>The Dark Knight Rises</h2>
+      <h3>Genre Crime</h3>
+    </div>
+  </section>
+
+  <section id="Animation" class="card-section">
+    <div class="card">
+      <img src="./img/toystory.jpg" alt="ToyStoryMovie">
+      <h2>Toy Story</h2>
+      <h3>Genre Animation</h3>
+    </div>
+    <div class="card">
+      <img src="./img/yourname.webp" alt="YourNameMovie">
+      <h2>Your Name</h2>
+      <h3>Genre Animation</h3>
+    </div>
+    <div class="card">
+      <img src="./img/dragon.jpg" alt="HowToTrainYourDragonMovie">
+      <h2>How To Train Your Dragon</h2>
+      <h3>Genre Animation</h3>
+    </div>
+    <div class="card">
+      <img src="./img/robinhood.jpg" alt="RobinHoodMovie">
+      <h2>Robin Hood</h2>
+      <h3>Genre Animation</h3>
+    </div>
+    <div class="card">
+      <img src="./img/avengers.jpg" alt="TheAvengersMovie">
+      <h2>The Avengers</h2>
+      <h3>Genre Animation</h3>
+    </div>
+  </section>
+
+  <section id="Adventure" class="card-section">
+    <div class="card">
+      <img src="./img/lotr.jpg" alt="TheLordOfTheRingsMovie">
+      <h2>The Lord of the Rings</h2>
+      <h3>Genre Adventure</h3>
+    </div>
+    <div class="card">
+      <img src="./img/pirates.jpg" alt="PiratesOfTheCaribbeanMovie">
+      <h2>Pirates of the Caribbean</h2>
+      <h3>Genre Adventure</h3>
+    </div>
+  </section>
+
+  <section id="#moviesTable tbody">
+    <h2>Search Movies</h2>
+    <input type="text" id="userId" placeholder="Enter User ID">
+    <button id="searchBtn">Search</button>
+    <table id="moviesTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Company</th>
+          <th>Movie</th>
+          <th>Rate</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </section>
+  <footer>
+    <p>&copy; 2023 Tu Empresa. Todos los derechos reservados. AcCorporations</p>
+  </footer>
+
+  <script src="../scripts/movies-filter.js"></script>
+</body>
+
+</html>
